@@ -1,24 +1,24 @@
 import './App.css'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom' 
+import { Home } from './Pages/home'
+import { About } from './Pages/about'
+import { Projects } from './Pages/projects'
+import { Layout } from './Components/layout'
 
 function App() {
 
   return (
-    <>
-      <h1>Marvin Nguyen</h1>
-      <h2>Electrical Engineering Student</h2>
-      <h3>Hi! My name is Marvin Nguyen and this is my personal portfolio website.</h3>
-      
-      <a href='https://www.linkedin.com/in/marvintuanminhnguyen/' target="_blank" className="card">
-        LinkedIn&nbsp;
-      </a>
-      <a href='https://drive.google.com/file/d/1F0Y4PoYIUZzYuECMRSxCgwg3M9Y48c3h/view?usp=sharing' target="_blank" className="card">
-        Resume&nbsp; 
-      </a>
-      <a href='https://github.com/marvinnguyen617' target="_blank" className="card">
-        Github&nbsp;
-      </a>
-    </>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+        </Route>
+      </Routes>
+    </Router>
   )
+
 }
 
 export default App
