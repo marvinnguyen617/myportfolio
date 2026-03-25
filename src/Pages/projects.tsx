@@ -1,13 +1,26 @@
 export function Projects() {
     return (
     <>
+        <br></br>
         <h1>Projects</h1>
-        <h2>BloomBlocker</h2>
-        <h3>Something about the project.</h3>
-        <h2>RockLock</h2>
-        <h3>Something about the project.</h3>
-        <h2>Autonomous Rover</h2>
-        <h3>Something about the project.</h3>
+            <h2>Autonomous Rover</h2>
+                <p>- Designed a custom KiCad PCB joystick controller using an ESP32-C3 Mini for rover command input</p>
+                <p>- Implemented a simplex wireless protocol transmitting control packets from the transmitter ESP32 to the rover</p>
+                <p>- Programmed the receiver ESP32-C3 to parse packets and drive a motor controller for differential motor movement</p>
+                <p>- Integrated the motor controller, power supply, and ESP32 firmware into a fully functioning rover system</p>
+            <h2>Bolt Corrosion Tester</h2>
+                <p>- Implemented high-precision data acquisition with a 16-bit ADS1115 ADC, measuring the electrochemical potential between a bolt and reference Ag/AgCl electrode</p>
+                <p>- Processed data via ESP32-C3 firmware to datasheet specification, displaying a bolt's corrosion risk on an I2C LCD</p>
+                <p>- Awarded third place in Engineering Student Council's EngiTank Competition for outstanding research and innovation</p>
+            <h2>RISC-V Single Cycle Processor</h2>
+                <p>- Implemented a RISC-V Processor in Verilog HDL capable of executing all instructions within a single clock cycle</p>
+                <p>- Integrated key 32-bit architectural components, including a dedicated Instruction Memory for instruction fetch, a 
+                    high-speed Register File for operand storage and retrieval, and the Control Unit, to define the full data path</p>
+                <p>- Verified functionality using comprehensive test benches and simulation tools for instruction set compliance</p>
+            <h2>BloomBlocker</h2>
+                <p>- Designed a smart dual motor control system on a breadboard to precisely navigate the autonomous boat-drone</p>
+                <p>- Developed the core software logic in Arduino IDE to process acquired in-situ water data and transmit WiFi packets</p>
+                <p>- Awarded third place in Engineering Student Council's LIFETank Competition for design novelty and excellence</p>
     </>
     )
 }
