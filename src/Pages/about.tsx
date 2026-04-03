@@ -6,7 +6,7 @@ export function About() {
         <h2>I am an electrical engineering undergraduate with a focus on RF/Antenna Design.</h2>
         <h2>In my free time, I like to breakdance and bake pastries.</h2>
             <h2>Education</h2>
-                <p>B.S. Electrical Engineering, Expected Graduation: May 2028</p>
+                <p>B.S. Electrical Engineering, Minor in Biomedical Engineering | Expected Graduation: May 2028</p>
             <h2>Experience</h2>
                 <h3>IEEE Student Branch | OPS Lead Instructor</h3>
                     <p>Will lead OPS, develop project curriculum and lecture students.</p>
