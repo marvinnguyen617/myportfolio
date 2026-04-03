@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import "./navbar.css"
-import linkedinlogo from "../Assets/linkedinlogo.png"
-import githublogo from "../Assets/githublogo.png"
+import linkedinlogo from "../assets/linkedinlogo.png"
+import githublogo from "../assets/githublogo.png"
 
 export function Navbar() {
     return (
