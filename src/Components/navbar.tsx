@@ -15,8 +15,8 @@ export function Navbar() {
             </div>
 
             <div className="navright">
-                <a href="https://www.linkedin.com/in/marvintuanminhnguyen/"><img src={linkedinlogo} alt="LinkedIn" /></a>
-                <a href="https://github.com/marvinnguyen617"><img src={githublogo} alt="GitHub" /></a>
+                <a href="https://www.linkedin.com/in/marvintuanminhnguyen/"><img src={linkedinlogo} alt="LinkedIn" className="icon" /></a>
+                <a href="https://github.com/marvinnguyen617"><img src={githublogo} alt="GitHub" className="icon" /></a>
             </div>
 
         </nav>

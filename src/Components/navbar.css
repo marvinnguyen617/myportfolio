@@ -39,7 +39,7 @@
     margin-right: 30%;
 }
 
-img {
+.icon {
     display: block;
     width: 38px;
     height: 38px;
@@ -49,6 +49,6 @@ img {
     outline-offset: -1px;
     outline: 2px solid #000000;
 }
-img:hover {
+.icon:hover {
   cursor: pointer;
 }
