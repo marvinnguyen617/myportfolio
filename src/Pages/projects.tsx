@@ -6,7 +6,7 @@ import bloomblocker from '../assets/bloomblocker.jpg';
 export function Projects() {
     return (
     <div className="main">
-        <br></br>
+        <br></br><br></br><br></br>
         <h1>Projects</h1>
 
         <div className="row">
