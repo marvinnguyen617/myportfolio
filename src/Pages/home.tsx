@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import welding from '../Assets/welding.png';
+import welding from '../assets/welding.png';
 import linkedinlogo from "../assets/linkedinlogo.png"
 import githublogo from "../assets/githublogo.png"
 import email from "../assets/email.png"
