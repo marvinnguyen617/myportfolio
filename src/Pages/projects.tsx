@@ -1,4 +1,3 @@
-import './projects.css';
 import rocklock1 from '../assets/rocklock1.png';
 import rover1 from '../assets/rover1.png';
 

@@ -1,8 +1,8 @@
-export function About() {
+export function Experience() {
     return (
     <>
     <br></br>
-        <h1>About Me</h1>
+        <h1>Experience</h1>
         <h2>I am an electrical engineering undergraduate with a focus on RF/Antenna Design.</h2>
         <h2>In my free time, I like to breakdance and bake pastries.</h2>
             <h2>Education</h2>
