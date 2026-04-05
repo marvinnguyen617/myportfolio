@@ -20,17 +20,17 @@ export function Projects() {
         </div>
         <div className="column">
             <div className="content">
-            <img src={rocklock1} alt="RockLock" className="contentimage" />
-            <h3>RockLock</h3>
-            <p>My team's 3rd place submission for ESC's EngiTank.</p>
+            <img src={processor} alt="Processor" className="contentimage" />
+            <h3>RISC-V Single Cycle Processor</h3>
+            <p>Capstone project for EECS 31L, a digital logic design.</p>
             <br></br>
             </div>
         </div>
         <div className="column">
             <div className="content">
-            <img src={processor} alt="Processor" className="contentimage" />
-            <h3>RISC-V Single Cycle Processor</h3>
-            <p>Capstone project for EECS 31L, a digital logic design.</p>
+            <img src={rocklock1} alt="RockLock" className="contentimage" />
+            <h3>RockLock</h3>
+            <p>My team's 3rd place submission for ESC's EngiTank.</p>
             <br></br>
             </div>
         </div>
