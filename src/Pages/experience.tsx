@@ -59,7 +59,7 @@ export function Experience() {
 
                 <h1>Technical Skills</h1>
                     <h3>Hardware: <span className="light">Digital Logic Design, Circuit Design/Analysis, PCB Design, Microcontrollers</span></h3>
-                    <h3>Software/Programming: <span className="light">LTspice, Altium, KiCAD, C/C++, Verilog HDL, Excel</span></h3>
+                    <h3>Software/Programming: <span className="light">LTspice, Cadence Virtuoso, Altium, KiCAD, C/C++, Verilog HDL, Excel</span></h3>
                     <h3>Test Equipment: <span className="light">Multimeter, Digital Storage Oscilloscope</span></h3>
                     <h3>Manufacturing: <span className="light">THT/SMD Soldering, MIG Welding, Woodworking, Manual Fabrication</span></h3>
 
