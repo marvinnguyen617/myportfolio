@@ -11,7 +11,7 @@ export function Home() {
             <div className = "row">
                 <div className = "columnplus">
                     <div className = "content">
-
+                        <br></br>
                         <h1>Marvin Nguyen</h1>
                         <h2>Electrical Engineering, 2nd Year</h2>
                         <h3>Dedicated electrical engineering student <br /> with a focus on RF/Antenna design.</h3>
@@ -21,7 +21,7 @@ export function Home() {
                             <Link to ="https://github.com/marvinnguyen617"><img src={githublogo} alt="GitHub" className="icon" /></Link>
                             <Link to ="mailto:marvintn@uci.edu"><img src={email} alt="Mail" className="icon" /></Link>
                         </div>
-
+                        <br></br>
                     </div>
                 </div>
                 <div className = "column">
