@@ -5,6 +5,10 @@ import { Experience } from './Pages/experience'
 import { Projects } from './Pages/projects'
 import { Contact } from './Pages/contact'
 import { Layout } from './Components/layout'
+import { Rover } from './Pages/ProjectPages/rover'
+import { Processor } from './Pages/ProjectPages/processor'
+import { RockLock } from './Pages/ProjectPages/rocklock'
+import { BloomBlocker } from './Pages/ProjectPages/bloomblocker'
 
 function App() {
 
@@ -16,6 +20,10 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/rover" element={<Rover />} />
+          <Route path="/processor" element={<Processor />} />
+          <Route path="/rocklock" element={<RockLock />} />
+          <Route path="/bloomblocker" element={<BloomBlocker />} />
         </Route>
       </Routes>
     </Router>

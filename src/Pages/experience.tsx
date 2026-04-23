@@ -34,7 +34,7 @@ export function Experience() {
                             <h2><span className="altlefttext">Vice President of Development | </span><span className="italic">Engineering Student Council </span></h2>
                             <h2 className="altrighttext">Apr 2026 - Present</h2>
                         </div>
-                        <h3 className="altlefttext light">• Will lead ESC's LIFE program, mentoring ESC's next freshmen class.</h3>
+                        <h3 className="altlefttext light">• Will co-lead ESC's LIFE program, mentoring ESC's next freshmen class.</h3>
                         <div className="altrow">
                             <h2><span className="altlefttext">Mentorship Co-Director | </span><span className="italic">Engineering Student Council </span></h2>
                             <h2 className="altrighttext">May 2025 - Jun 2026</h2>
