@@ -234,3 +234,14 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.projlink {
+  font-weight: 1000;
+  color: rgba(52, 61, 70, 0.87);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.projlink:hover {
+  color: rgba(52, 61, 70, 0.87);
+}
+
+  
